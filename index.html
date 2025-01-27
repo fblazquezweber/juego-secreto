@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Game</title>
+    </head>
+    <body>
+        <div class="div-principal">
+            <div class="div-texto">
+                <h1 class="h1-titulo">Juego del número secreto</h1>
+                <p class="p-indicaciones">Indica un número del 1 al 10</p>
+            </div>
+            <div class="formulario">
+                <input type="number" min="1" max="10" id="input-entrada">
+            </div>
+            <div class="div-botones">
+                <button onclick="jugar();"    class="botones-jugar" id="intentar">Intentar</button>
+                <button onclick="reiniciarJuego();" class="botones-jugar" id="reiniciar" disabled>Reiniciar</button>
+            </div>
+            <div class="imagen-principal">
+                <img src=".\img\ia.png" class="img-persona">
+            </div>
+        </div>
+        <script src="archivo.js"></script>
+    </body>
+</html>
